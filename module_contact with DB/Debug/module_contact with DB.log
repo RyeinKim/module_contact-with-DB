@@ -1,0 +1,17 @@
+﻿  function.c
+c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\function.c(14): warning C4098: 'mysql_start': 'void' 함수에서 값을 반환하고 있습니다.
+c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\function.c(21): warning C4098: 'mysql_start': 'void' 함수에서 값을 반환하고 있습니다.
+c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\function.c(50): warning C4098: 'input_data': 'void' 함수에서 값을 반환하고 있습니다.
+  main.c
+  코드를 생성하고 있습니다...
+main.obj : error LNK2005: _connection이(가) function.obj에 이미 정의되어 있습니다.
+function.obj : error LNK2019: _mysql_num_fields@4 외부 기호(참조 위치: _print 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_error@4 외부 기호(참조 위치: _input_data 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_init@4 외부 기호(참조 위치: _mysql_start 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_real_connect@32 외부 기호(참조 위치: _mysql_start 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_query@8 외부 기호(참조 위치: _input_data 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_store_result@4 외부 기호(참조 위치: _mysql_start 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_free_result@4 외부 기호(참조 위치: _mysql_start 함수)에서 확인하지 못했습니다.
+function.obj : error LNK2019: _mysql_fetch_row@4 외부 기호(참조 위치: _print 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _mysql_close@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Users\ryein\OneDrive\Desktop\GitHub\module_contact with DB\Debug\module_contact with DB.exe : fatal error LNK1120: 9개의 확인할 수 없는 외부 참조입니다.
