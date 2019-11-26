@@ -33,6 +33,7 @@ void edit_info(_contact *contact)
 
 			sprintf(query, "update test set name = '%s' where name = '%s'", contact->name, old_name);
 			query_stat = mysql_query(connection, query);
+			break;
 		}
 		case 2:
 		{
@@ -42,6 +43,7 @@ void edit_info(_contact *contact)
 
 			sprintf(query, "update test set digit = '%s' where name = '%s'", contact->digit, old_name);
 			query_stat = mysql_query(connection, query);
+			break;
 		}
 		case 3:
 		{
@@ -52,6 +54,7 @@ void edit_info(_contact *contact)
 
 			sprintf(query, "update test set address = '%s' where name = '%s'", contact->address, old_name);
 			query_stat = mysql_query(connection, query);
+			break;
 		}
 	}
 

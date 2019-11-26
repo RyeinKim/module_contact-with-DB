@@ -3,7 +3,7 @@ c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact wit
 c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\start.h(17): warning C4098: 'mysql_start': 'void' 함수에서 값을 반환하고 있습니다.
 c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\start.h(24): warning C4098: 'mysql_start': 'void' 함수에서 값을 반환하고 있습니다.
 c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\delete.h(8): warning C4101: 'field' :참조되지 않은 지역 변수입니다.
-c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\edit.h(61): warning C4098: 'edit_info': 'void' 함수에서 값을 반환하고 있습니다.
+c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\edit.h(64): warning C4098: 'edit_info': 'void' 함수에서 값을 반환하고 있습니다.
 c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\edit.h(8): warning C4101: 'old_address' :참조되지 않은 지역 변수입니다.
 c:\users\ryein\onedrive\desktop\github\module_contact with db\module_contact with db\edit.h(8): warning C4101: 'old_num' :참조되지 않은 지역 변수입니다.
   module_contact with DB.vcxproj -> C:\Users\ryein\OneDrive\Desktop\GitHub\module_contact with DB\x64\Debug\module_contact with DB.exe

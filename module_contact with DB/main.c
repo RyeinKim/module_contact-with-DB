@@ -14,11 +14,12 @@ int main(void)
 		_contact m1;
 		mysql_start();
 
-		printf("type:");
+		printf("1. input data  2. print all  3. search  4. delete  5. edit  6. quit\n");
+		printf("type: ");
 		scanf("%d", &m);
 		getchar();
 
-		//if (m == 4) { break; }
+		if (m == 6) { break; }
 		switch (m)
 		{
 			case 1:
@@ -39,10 +40,12 @@ int main(void)
 			case 4:
 			{
 				del_info(connection);
+				break;
 			}
 			case 5:
 			{
 				edit_info(&m1);
+				break;
 			}
 			default:
 			{
